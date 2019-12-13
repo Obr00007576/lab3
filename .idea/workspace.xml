@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcc1bd03-a000-4e95-a3c7-414aa7b3fade" name="Default Changelist" comment="" />
+    <list default="true" id="bcc1bd03-a000-4e95-a3c7-414aa7b3fade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/spbstu/telematics/petrol_station/petrol_stationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petrol_station.iml" beforeDir="false" afterPath="$PROJECT_DIR$/petrol_station.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spbstu/telematics/petrol_station/petrol_station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spbstu/telematics/petrol_station/petrol_station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/petrol_station/petrol_station$Assistant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/petrol_station/petrol_station$Assistant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/petrol_station/petrol_station$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/petrol_station/petrol_station$Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/petrol_station/petrol_station.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/spbstu/telematics/petrol_station/petrol_station.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +25,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XSLT Stylesheet" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UtjOWAxaw8ri3Hwm0bRMYRlTcJ" />
   <component name="ProjectViewState">
@@ -21,13 +42,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyQueue" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.spbstu.telematics.petrol_station" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.petrol_stationTest">
     <configuration name="petrol" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.spbstu.telematics.petrol_station.petrol_station" />
       <module name="petrol_station" />
@@ -35,6 +68,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="petrol_stationTest" type="JUnit" factoryName="JUnit">
+      <module name="petrol_station" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.spbstu.telematics.petrol_station.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.spbstu.telematics.petrol_station" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="petrol_stationTest.test_profit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petrol_station" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.spbstu.telematics.petrol_station.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.spbstu.telematics.petrol_station" />
+      <option name="MAIN_CLASS_NAME" value="ru.spbstu.telematics.petrol_station.petrol_stationTest" />
+      <option name="METHOD_NAME" value="test_profit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="petrol_stationTest.test_sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petrol_station" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.spbstu.telematics.petrol_station.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.spbstu.telematics.petrol_station" />
+      <option name="MAIN_CLASS_NAME" value="ru.spbstu.telematics.petrol_station.petrol_stationTest" />
+      <option name="METHOD_NAME" value="test_sum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.petrol_stationTest.test_sum" />
+        <item itemvalue="JUnit.petrol_stationTest.test_profit" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -62,46 +150,86 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1576208926252">
+    <state x="537" y="188" key="#All_in_petrol_station" timestamp="1576242910292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926252" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1576208926252">
+    <state x="537" y="188" key="#All_in_petrol_station/0.0.1920.1040@0.0.1920.1040" timestamp="1576242910292" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576248452599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926252" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1576208926251">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576248452599" />
+    <state x="689" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576241923668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926251" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1576208926252">
+    <state x="689" y="295" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576241923668" />
+    <state x="653" y="227" key="#petrol" timestamp="1576243580407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926252" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1576208926252">
+    <state x="653" y="227" key="#petrol/0.0.1920.1040@0.0.1920.1040" timestamp="1576243580407" />
+    <state x="537" y="150" key="#petrol_stationTest" timestamp="1576241950545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926252" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1576208926252">
+    <state x="537" y="150" key="#petrol_stationTest/0.0.1920.1040@0.0.1920.1040" timestamp="1576241950545" />
+    <state x="537" y="224" key="#petrol_stationTest_(1)" timestamp="1576244426773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926252" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1576208926252">
+    <state x="537" y="224" key="#petrol_stationTest_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1576244426773" />
+    <state x="537" y="150" key="#ru.spbstu.telematics.petrol_station_in_petrol_station" timestamp="1576241638328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926252" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1576208926252">
+    <state x="537" y="150" key="#ru.spbstu.telematics.petrol_station_in_petrol_station/0.0.1920.1040@0.0.1920.1040" timestamp="1576241638328" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1576243645375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576208926252" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576185080366">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576243645375" />
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom" timestamp="1576252811283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576185080366" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576193325011">
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576252811283" />
+    <state width="1877" height="217" key="GridCell.Tab.0.center" timestamp="1576252811283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576193325011" />
+    <state width="1877" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576252811283" />
+    <state width="1877" height="217" key="GridCell.Tab.0.left" timestamp="1576252811283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576252811283" />
+    <state width="1877" height="217" key="GridCell.Tab.0.right" timestamp="1576252811283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576252811283" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1576250892295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576250892295" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1576250892295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576250892295" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1576250892295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576250892295" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1576250892295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576250892295" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1576243784166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576243784166" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576243968269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576243968269" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576240669309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576240669309" />
+    <state x="707" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576244009157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576244009157" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576184900539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
